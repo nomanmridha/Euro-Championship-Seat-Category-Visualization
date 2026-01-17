@@ -3,7 +3,6 @@
 ![UEFA Euro](https://img.shields.io/badge/UEFA-Euro%202024-blue)
 ![Tableau](https://img.shields.io/badge/Tableau-Visualization-orange)
 ![Data Science](https://img.shields.io/badge/Data-Science-purple)
-![Python](https://img.shields.io/badge/Python-3.9%2B-yellow)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
 ---
@@ -22,7 +21,7 @@ visual storytelling and business recommendations.
 ## 🎓 Academic Context
 
 - **University:** South Westphalia University of Applied Sciences (Germany)
-- **Course:** Data Science / Data Visualization
+- **Course:** Data Science Project Seminar Driving Corporate Performance
 - **Project Type:** Academic Data Analytics Project
 - **Semester:** Summer Semester 2025
 - **Domain:** Sports Analytics & Business Intelligence
@@ -32,10 +31,12 @@ visual storytelling and business recommendations.
 ## 📊 Dataset Description
 
 - **Source:** University-provided dataset
-- **Format:** Excel
+- **Format:** Raw data > Excel
 - **Data Stages:**
   - Raw dataset (original data)
+![Raw Data](./tableau/exports/Raw_Data_Overview.png)
   - Processed dataset (cleaned & transformed)
+![Pre-Processed Data](./tableau/exports/Data_Preprocessed_Overview.png)
 
 ### Key Variables:
 - Seat Category
@@ -53,26 +54,44 @@ visual storytelling and business recommendations.
 - Create interactive dashboards for stakeholder presentation
 
 ## 📁 Project Structure
-
-Euro-Championship-Seat-Category-Visualization/  
-├── data/  
-│ ├── raw/ # Original datasets  
-│ └── processed/ # Cleaned data files  
-├── tableau/ # Tableau workbooks & dashboards  
-├── reports/ # Analysis reports and presentations  
-└── docs/ # Documentation  
+```bash  
+Euro-Championship-Seat-Category-Visualization/ 
+├── README.md 
+├── data/ 
+│ ├── raw/    # Original datasets
+│ │ └── euro_seat_data_raw.xlsx 
+│ └── processed/    # Cleaned data files 
+│ └── euro_seat_data_processed.xlsx 
+├── tableau/     # Tableau workbooks & dashboards
+│ └── exports/ 
+│ └── images/  
+├── presentations/    # presentations
+│ └── Euro_Championship_Seat_Analysis.pptx 
+├── analysis/     # Analysis reports 
+│ ├── insights_report.md 
+│ └── methodology.md 
+└── docs/    # Documentation
+  └── project_overview.md
+``` 
+---  
 
 ## 🔄 Data Analytics Workflow
-
+```text
 Raw Excel Data
-      ↓
+      >
 Data Cleaning & Preprocessing
-      ↓
+      >
 Processed Dataset
-      ↓
+      >
 Tableau Visualizations
-      ↓
+      >
 Insights & Business Recommendations  
+``` 
+---
+
+## 📊 Dashboard Overview  
+![Dashboard 1](./tableau/exports/Dashboard_1.jpg)  
+![Dashboard 2](./tableau/exports/Dashboard_2.jpg)
 
 ---
 
@@ -105,7 +124,7 @@ Insights & Business Recommendations
 All dashboards were created using **Tableau** and exported for documentation.
 
 ### 🌍 Region-wise Average Ticket Price
-![Region Price](tableau/exports/images/region_wise_ticket_price.png)
+![Region Price](./tableau/exports/Region_Wise_Device_Usage.png)
 
 **Insight:**  
 Significant pricing variation exists between regions, with Western regions
@@ -114,7 +133,7 @@ showing higher average ticket prices.
 ---
 
 ### 💻 Device-wise Average Ticket Price
-![Device Price](tableau/exports/images/device_wise_avg_price.png)
+![Device Price](./tableau/exports/Device_wise_Average_Ticket_Price.png)
 
 **Insight:**  
 Desktop users tend to purchase higher-priced tickets,
@@ -123,7 +142,7 @@ while mobile users dominate volume at lower average prices.
 ---
 
 ### 🌐 Country-wise Average Ticket Price
-![Country Price](tableau/exports/images/country_wise_avg_price.png)
+![Country Price](./tableau/exports/Average_Ticket_Price_Country_Wise.png)
 
 **Insight:**  
 Host countries and football-dominant nations exhibit premium pricing patterns.
@@ -131,7 +150,7 @@ Host countries and football-dominant nations exhibit premium pricing patterns.
 ---
 
 ### 👥 Gender-wise Average Spending
-![Gender Spending](tableau/exports/images/gender_wise_avg_spending.png)
+![Gender Spending](./tableau/exports/Average_Spending_Genderwise.png)
 
 **Insight:**  
 Male customers show slightly higher average spending,
@@ -173,10 +192,10 @@ while female customers demonstrate stable purchasing behavior.
 📌 Quick Links:
 - 📊 [Raw Data](data/raw/)
 - 🧹 [Processed Data](data/processed/)
-- 📉 [Tableau Visualizations](tableau/exports/images/)
+- 📉 [Tableau Visualizations](tableau/exports/)
 - 📄 [Methodology](analysis/methodology.md)
 - 📊 [Insights Report](analysis/insights_report.md)
-- 🎤 [Final Presentation](presentations/)
+- 🎤 [Final Presentation](presentation)
 
 ---
 
@@ -196,4 +215,11 @@ while female customers demonstrate stable purchasing behavior.
 
 This project was developed **strictly for academic purposes**.
 The dataset and analysis are intended for educational demonstration only.
+
+## ✉️ Contact
+
+💼 LinkedIn: https://www.linkedin.com/in/md-abdullah-al-noman-333aa4155  
+📁 GitHub: https://github.com/nomanmridha
+
+---
 
