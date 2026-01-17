@@ -78,13 +78,13 @@ Euro-Championship-Seat-Category-Visualization/
 ## 🔄 Data Analytics Workflow
 ```text
 Raw Excel Data
-      >
+      ↓
 Data Cleaning & Preprocessing
-      >
+      ↓
 Processed Dataset
-      >
+      ↓
 Tableau Visualizations
-      >
+      ↓
 Insights & Business Recommendations  
 ``` 
 ---
@@ -123,11 +123,11 @@ Insights & Business Recommendations
 
 All dashboards were created using **Tableau** and exported for documentation.
 
-### 🌍 Region-wise Average Ticket Price
+### 🌍 Region-wise Device usage
 ![Region Price](./tableau/exports/Region_Wise_Device_Usage.png)
 
 **Insight:**  
-Significant pricing variation exists between regions, with Western regions
+Significant device usage variation exists between regions, with Western regions
 showing higher average ticket prices.
 
 ---
@@ -136,8 +136,8 @@ showing higher average ticket prices.
 ![Device Price](./tableau/exports/Device_wise_Average_Ticket_Price.png)
 
 **Insight:**  
-Desktop users tend to purchase higher-priced tickets,
-while mobile users dominate volume at lower average prices.
+Apple users tend to purchase higher-priced tickets,
+while Android users dominate volume at lower average prices.
 
 ---
 
@@ -153,8 +153,8 @@ Host countries and football-dominant nations exhibit premium pricing patterns.
 ![Gender Spending](./tableau/exports/Average_Spending_Genderwise.png)
 
 **Insight:**  
-Male customers show slightly higher average spending,
-while female customers demonstrate stable purchasing behavior.
+VIP customers show slightly higher average spending,
+while Premium customers demonstrate stable purchasing behavior.
 
 ---
 
